@@ -2,7 +2,7 @@ const { Router } = require("express");
 const { HeadPhoneModel } = require("../Models/data.model");
 const dataRouter = Router();
 
-//get router
+//get router data
 dataRouter.get("/", async (req, res) => {
   try {
     const userData = await HeadPhoneModel.find();
