@@ -12,7 +12,7 @@ dataRouter.get("/", async (req, res) => {
   }
 });
 
-//post router
+//post router data
 dataRouter.post("/post", async (req, res) => {
   const payload = req.body;
   try {
